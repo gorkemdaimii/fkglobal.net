@@ -187,6 +187,7 @@ p {
   padding-bottom: 20px; }
   .custom-navbar .navbar-brand {
     font-size: 32px;
+    size: 30px;
     font-weight: 600; }
     .custom-navbar .navbar-brand > span {
       opacity: .4; }
