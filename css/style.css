@@ -152,6 +152,27 @@ p {
   margin-top: 20px;
 }
 
+.video-carousel .item {
+  height: 400px; /* Set the desired height */
+  width: 800px; /* Set the desired width */
+  margin: 0 auto; /* Center the item horizontally */
+}
+
+.video-carousel .carousel-inner {
+  height: 100%; /* Make the inner element take up the full height */
+}
+
+.video-carousel .carousel-item {
+  height: 100%; /* Make the carousel item take up the full height */
+  display: flex; /* Use flexbox to center the video */
+  align-items: center;
+  justify-content: center;
+}
+
+.video-carousel .carousel-item iframe {
+  height: 100%; /* Make the iframe take up the full height */
+  width: 100%; /* Make the iframe take up the full width */
+}
 
 
 .carousel-control-prev,
