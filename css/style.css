@@ -113,7 +113,7 @@ p {
 
 /* Style the carousel */
 .carousel-item img {
-  max-height: 500px; /* Set maximum height for the images */
+  max-height: 600px; /* Set maximum height for the images */
   border-radius: 10px;
   width: 100%;
   object-fit: cover; /* Ensure the images cover the entire space */
