@@ -257,49 +257,8 @@
 
 	
 		<body> 
-		
-		  <video controls class="videos" id="myVideo" autoplay> <source src="armani.mp4" type="video/mp4">
-			<source src="arman.mp4" type="video/mp4">
-			<source src="galll.mp4" type="video/mp4">
-			<source src="oscarr.mp4" type="video/mp4">
-		
-			Your browser does not support the video tag.
-		  </video>
-		
-		  <style>
-			.videos {
-  width: 100%; /* Fill the width of its container */
-  height: auto; /* Maintain aspect ratio */
-  position: absolute; /* Remove from normal document flow */
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border-radius: 10px;
-  /* Optional: Center the video on larger screens */
-  margin: 0 auto;
-}
-		  </style>
 
-		  <script>
-
-const videos = ['arman.mp4', 'galll.mp4', 'oscarr.mp4']; // Array of video sources
-		let currentVideoIndex = 0;
-		
-		const videoPlayer = document.getElementById('myVideo');
-		
-		videoPlayer.addEventListener('ended', () => {
-		  currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
-		  videoPlayer.src = videos[currentVideoIndex];
-		  videoPlayer.play(); // Start playing the next video
-		});
-		  </script>
-		
-		
-		</body>
-
-
-		<!-- NAVBAR -->
+				<!-- NAVBAR -->
 		<div class="collapse navbar-collapse" id="navbarsFurni">
 			<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 				<li class="nav-item active">
@@ -351,6 +310,49 @@ const videos = ['arman.mp4', 'galll.mp4', 'oscarr.mp4']; // Array of video sourc
 
 </nav>
 		
+		
+		  <video controls class="videos" id="myVideo" autoplay> <source src="armani.mp4" type="video/mp4">
+			<source src="arman.mp4" type="video/mp4">
+			<source src="galll.mp4" type="video/mp4">
+			<source src="oscarr.mp4" type="video/mp4">
+		
+			Your browser does not support the video tag.
+		  </video>
+		
+		  <style>
+			.videos {
+  width: 100%; /* Fill the width of its container */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Remove from normal document flow */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 10px;
+  /* Optional: Center the video on larger screens */
+  margin: 0 auto;
+}
+		  </style>
+
+		  <script>
+
+const videos = ['arman.mp4', 'galll.mp4', 'oscarr.mp4']; // Array of video sources
+		let currentVideoIndex = 0;
+		
+		const videoPlayer = document.getElementById('myVideo');
+		
+		videoPlayer.addEventListener('ended', () => {
+		  currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
+		  videoPlayer.src = videos[currentVideoIndex];
+		  videoPlayer.play(); // Start playing the next video
+		});
+		  </script>
+		
+		
+		</body>
+
+
+	
 		
 		
 		
