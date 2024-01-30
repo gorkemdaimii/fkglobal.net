@@ -81,13 +81,20 @@ a {
 
 
 /* Set a maximum width for the container */
-.container1 {
+.container {
   display: flex;
   justify-content: center; /* Horizontally center */
   align-items: center; /* Vertically center */
   height: 100vh; /* Set the container height to fill the viewport */
 }
 
+.container1 {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Set the container height to fill the viewport */
+  margin-top: -10px;
+}
 
 /* Style the product name */
 h2 {
