@@ -80,3 +80,15 @@ productImage.addEventListener('mouseout', () => {
 
 
 })()
+
+
+const videos = ['armani.mp4', 'gala.mp4', 'oscar.mp4']; // Array of video sources
+		let currentVideoIndex = 0;
+		
+		const videoPlayer = document.getElementById('myVideo');
+		
+		videoPlayer.addEventListener('ended', () => {
+		  currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
+		  videoPlayer.src = videos[currentVideoIndex];
+		  videoPlayer.play(); // Start playing the next video
+		});
