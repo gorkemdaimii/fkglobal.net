@@ -262,22 +262,25 @@
 		
 		  <video controls class="videos" id="myVideo"> <source src="armani.mp4" type="video/mp4">
 			<source src="arman.mp4" type="video/mp4">
-			<source src="galass.mp4" type="video/mp4">
+			<source src="gal.mp4" type="video/mp4">
 			<source src="oscar.mp4" type="video/mp4">
 		
 			Your browser does not support the video tag.
 		  </video>
 		
 		  <style>
-			.videos{
-			  width: 550;
-			  height: 550px;
-			  border-radius: 10px;
-			  position: relative;
-			  margin-left: 250px;
-			  margin-top: 100px;
-			  
-			}
+			.videos {
+  width: 100%; /* Fill the width of its container */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Remove from normal document flow */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 10px;
+  /* Optional: Center the video on larger screens */
+  margin: 0 auto;
+}
 		  </style>
 		
 	
