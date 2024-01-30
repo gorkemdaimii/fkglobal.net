@@ -365,7 +365,9 @@ p {
 }
 
 .product-section {
-  padding: 7rem 0; }
+  padding: 7rem 0; 
+margin-top: 10px;}
+   
   .product-section .product-item {
     text-align: center;
     text-decoration: none;
