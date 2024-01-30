@@ -288,6 +288,12 @@ const videos = ['oscarr.mp4', 'galll.mp4', 'arman.mp4']; // Array of video sourc
 		
 		const videoPlayer = document.getElementById('myVideo');
 		
+		const video = document.getElementById("myVideo");
+
+video.addEventListener("loadeddata", function() {
+  video.play();
+});
+
 		videoPlayer.addEventListener('ended', () => {
 		  currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
 		  videoPlayer.src = videos[currentVideoIndex];
