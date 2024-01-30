@@ -1,11 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Le&display=swap');
 body {
   overflow-x: hidden;
   position: relative; }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Noto Sans Tai Le', sans-serif;
   font-weight: 400;
   line-height: 28px;
   color: #6a6a6a;
