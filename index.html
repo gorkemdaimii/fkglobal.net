@@ -257,7 +257,48 @@
 
 		<!-- Start Why Choose Us Section -->
 
-		<div class="testimonial-slider-wrap video-carousel text-center"></div>
+	
+		<body> 
+		
+		  <video controls class="videos" id="myVideo"> <source src="armani.mp4" type="video/mp4">
+			<source src="armani.mp4" type="video/mp4">
+			<source src="gala.mp4" type="video/mp4">
+			<source src="oscar.mp4" type="video/mp4">
+		
+			Your browser does not support the video tag.
+		  </video>
+		
+		  <style>
+			.videos{
+			  width: 550;
+			  height: 550px;
+			  border-radius: 10px;
+			  position: relative;
+			  margin-left: 250px;
+			  margin-top: 100px;
+			  
+			}
+		  </style>
+		
+		<script>
+		const videos = ['armani.mp4', 'gala.mp4', 'oscar.mp4']; // Array of video sources
+		let currentVideoIndex = 0;
+		
+		const videoPlayer = document.getElementById('myVideo');
+		
+		videoPlayer.addEventListener('ended', () => {
+		  currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
+		  videoPlayer.src = videos[currentVideoIndex];
+		  videoPlayer.play(); // Start playing the next video
+		});
+		</script>
+		
+		
+		
+		</body>
+		
+		
+		
 		
 		<!-- End Why Choose Us Section -->
 
