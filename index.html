@@ -274,7 +274,18 @@ document.addEventListener('DOMContentLoaded', () => {
     videoPlayer.play();
   });
 });
-
+videoPlayer.addEventListener('ended', () => {
+  // ...
+});
+currentVideoIndex = (currentVideoIndex + 1) % videos.length;
+videoPlayer.src = videos[currentVideoIndex];
+const videos = [
+  'oscarr.mp4',
+  'galll.mp4',
+  'arman.mp4'
+];
+videoPlayer.play();
+let currentVideoIndex = 0;
 
           </script>
         
