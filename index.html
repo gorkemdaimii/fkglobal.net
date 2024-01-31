@@ -19,46 +19,11 @@
 
 	<body>
 
-		<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3SHCP1BH9L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3SHCP1BH9L');
-</script>
-
-
-		<script type="module">
-			// Import the functions you need from the SDKs you need
-			import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
-			import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
-			// TODO: Add SDKs for Firebase products that you want to use
-			// https://firebase.google.com/docs/web/setup#available-libraries
-		  
-			// Your web app's Firebase configuration
-			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-			const firebaseConfig = {
-			  apiKey: "AIzaSyAEIdO3s8xKdd0BmRciQqpgGKyl3l6ekbc",
-			  authDomain: "fkglobal-6cdc6.firebaseapp.com",
-			  projectId: "fkglobal-6cdc6",
-			  storageBucket: "fkglobal-6cdc6.appspot.com",
-			  messagingSenderId: "973489214463",
-			  appId: "1:973489214463:web:407d28d1777e47f7c04dca",
-			  measurementId: "G-3SHCP1BH9L"
-			};
-		  
-			// Initialize Firebase
-			const app = initializeApp(firebaseConfig);
-			const analytics = getAnalytics(app);
-		  </script>
-
 		<!-- Start Header/Navigation -->
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img src="fkkkk.png" alt="F.K Global Logo"></a>
+				<a class="navbar-brand" href="index.html">F.K Global<span></span></a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -76,33 +41,61 @@
 										<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 											<li class="dropdown-submenu">
 												<a class="dropdown-item dropdown-toggle" href="liv1.html">Living Room</a>
-											
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Sofas</a></li>
+													<li><a class="dropdown-item" href="#">Love seats</a></li>
+													<li><a class="dropdown-item" href="#">Sectionals</a></li>
+													<li><a class="dropdown-item" href="#">Recnilers</a></li>
+													<li><a class="dropdown-item" href="#">Chairs</a></li>
+													<li><a class="dropdown-item" href="armchairs.html">Armchairs</a></li>
+													<li><a class="dropdown-item" href="#">Sleeper sofa</a></li>
+													<li><a class="dropdown-item" href="#">Coffee Table</a></li>
+													<li><a class="dropdown-item" href="#">Cabinet</a></li>
+													<!-- Add more submenu items as needed -->
+												</ul>
 											</li>
 											<li class="dropdown-submenu">
 												<a class="dropdown-item dropdown-toggle" href="din1.html">Dining Room</a>
-												
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Tables</a></li>
+													<li><a class="dropdown-item" href="#">Chairs</a></li>
+													<li><a class="dropdown-item" href="#">Barstool</a></li>
+													<!-- Add more submenu items as needed -->
+												</ul>
 											</li>
 
 
 											<li class="dropdown-submenu">
 												<a class="dropdown-item dropdown-toggle" href="bedroom1.html">Bedroom</a>
-												
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Beds</a></li>
+													<li><a class="dropdown-item" href="#">Dressers</a></li>
+													<li><a class="dropdown-item" href="#">Dressers&Mirror </a></li>
+													<li><a class="dropdown-item" href="#">Waredrobes </a></li>
+													<li><a class="dropdown-item" href="#">Cabinet</a></li>
+													<!-- Add more submenu items as needed -->
+												</ul>
 											</li>
 
-											<li class="dropdown-submenu">
-												<a class="dropdown-item dropdown-toggle" href="kidsroom.html">Kids Furniture</a>
-												
-											</li>
 
-											<li class="dropdown-submenu">
-												<a class="dropdown-item dropdown-toggle" href="#">Armchairs</a>
-										
-											</li>
-											<!-- Add more dropdown items with submenus if required -->
-											
 											<li class="dropdown-submenu">
 												<a class="dropdown-item dropdown-toggle" href="#">Accessories</a>
 										
+											</li>
+											<!-- Add more dropdown items with submenus if required -->
+											<li class="dropdown-submenu">
+												<a class="dropdown-item dropdown-toggle" href="kidsroom.html">Kids Furniture</a>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Kids bedroom groups</a></li>
+													<li><a class="dropdown-item" href="#">Kids beds</a></li>
+													<li><a class="dropdown-item" href="babysroom.html">Baby's Room</a></li>
+													<li><a class="dropdown-item" href="kidsroom.html">Kids room</a></li>
+													<li><a class="dropdown-item" href="#">Wardrobes </a></li>
+													<li><a class="dropdown-item" href="#">Study desk </a></li>
+													<li><a class="dropdown-item" href="#">Drawers</a></li>
+													<li><a class="dropdown-item" href="#">Drawers Mirror </a></li>
+													<!-- Add more submenu items as needed -->
+												</ul>
 											</li>
 										</ul>
 									</li>
@@ -116,27 +109,37 @@
 							</div>
 				
 		</nav>
+		<!-- End Header/Navigation -->
+
+
+
+
+
+
+
 
 		<!-- Start Hero Section -->
-		<div class="hero">
-			<div class="container">
-				<div class="row justify-content-between">
-					<div class="col-lg-5">
-						<div class="intro-excerpt">
-							<h1>F.K GLOBAL <span clsas="d-block">FURNISHING DREAMS</span></h1>
-							<p class="mb-4">Welcome to F.K Global, your gateway to a world of style and comfort. Immerse yourself in a vast selection of exquisite furniture curated for every taste, all offered at competitive prices without compromising on quality. Elevate your living spaces with F.K Global – where luxury meets affordability.</p>
-						
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>F.K GLOBAL <span clsas="d-block">FURNISHING DREAMS</span></h1>
+								<p class="mb-4">Welcome to F.K Global, your gateway to a world of style and comfort. Immerse yourself in a vast selection of exquisite furniture curated for every taste, all offered at competitive prices without compromising on quality. Elevate your living spaces with F.K Global – where luxury meets affordability.</p>
+							
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div class="hero-img-wrap">
+					
+							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
-		</div>
-	<!-- End Hero Section -->
+		<!-- End Hero Section -->
 
-							
-		<!-- End Header/Navigation -->
-<!-- Start Product Section -->
+
 		<div class="product-section">
 			<div class="container">
 				<div class="row">
@@ -144,7 +147,7 @@
 					<!-- Start Column 1 -->
 					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
 						<h2 class="mb-4 section-title">PRODUCTS</h2>
-					
+						
 					
 					</div> 
 					<!-- End Column 1 -->
@@ -152,33 +155,29 @@
 					<!-- Start Column 2 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="liv1.html">
-							<img src="FK GLOBAL/Casamia/ASUS CASAMIA/IMG_0430 copy.jpg" class="img-fluid product-thumbnail">
-							<h3 class="product-title">LIVING ROOM</h3>
-							
+							<img src="FK GLOBAL/sude1/Armani takim Sude/IMG_0797copy.jpg" class="img-fluid product-thumbnail">
+							<h3 class="product-title"><strong>LIVING ROOM</strong></h3>
+						
 						</a>
 					</div> 
 					<!-- End Column 2 -->
 
-					
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="din1.html">
-							<img src="FK GLOBAL/Classi/Dining room/Forest/Forest-Yemek-1200x676.jpg" class="img-fluid product-thumbnail">
-							<h3 class="product-title"><strong>DINING ROOM</strong> </h3>
-					
+							<img src="FK GLOBAL/Candess/Picasso Candess/Dining Room/WhatsApp Image 2023-12-28 at 09.54.03.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title"><strong>DINING ROOM</strong></h3>
 
 						
 						</a>
 					</div>
-					
 					<!-- End Column 3 -->
 
 					<!-- Start Column 4 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="bedroom1.html">
-							<img src="FK GLOBAL/Candess/Davinci  Candess/Bedroom set/2023-03-20-10198.jpg" class="img-fluid product-thumbnail">
-							<h3 class="product-title">BEDROOM</h3>
-						
+							<img src="FK GLOBAL/Classi/Bedroom/Astoria/astoria3.jpg" class="img-fluid product-thumbnail">
+							<h3 class="product-title"><strong>BEDROOM</strong></h3>
 
 						
 						</a>
@@ -192,7 +191,7 @@
 
 		<!-- Start Product Section -->
 		<div class="product-section">
-			<div class="container1">
+			<div class="container">
 				<div class="row">
 
 					<!-- Start Column 1 -->
@@ -205,28 +204,17 @@
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="kidsroom.html">
 							<img src="FK GLOBAL/Gencecix/Kids Inci Gencecix/amsterdam 1.jpg" class="img-fluid product-thumbnail">
-							<h3 class="product-title">KIDS FURTNITURE</h3>
-			
-
-						
+							<h3 class="product-title"><strong>KIDS ROOM</strong></h3>
 						</a>
-					</div>
+					</div> 
 					<!-- End Column 2 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="#">
-							<img src="FK GLOBAL/Seyran/Asiyan berjer/urun-asiyan-medikal-berjer-01.jpg" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Armchair</h3>
-						
-						
-						</a>
-					</div>
 
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="#">
-							<img src="liverrr.jpeg" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Chair</h3>
-					
+							<img src="FK GLOBAL/Seyran/Asiyan berjer/urun-asiyan-medikal-berjer-01.jpg" class="img-fluid product-thumbnail">
+							<h3 class="product-title"><strong>ARMCHAIR</strong></h3>
+
 
 						
 						</a>
@@ -234,10 +222,14 @@
 					<!-- End Column 3 -->
 
 					<!-- Start Column 4 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="#">
+							<img src="liverrr.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title"><strong>CHAIR</strong></h3>
 
-	
-
-					
+						
+						</a>
+					</div>
 					<!-- End Column 4 -->
 
 				</div>
@@ -245,29 +237,21 @@
 		</div>
 		<!-- End Product Section -->
 
-		
 
 
 
-
-
-		
-
-		<!-- Start Why Choose Us Section -->
-
-	
-		<body> 
-		
-		  <video controls class="videos" id="myVideo"> <source src="oscarr.mp4" type="video/mp4">
-			<source src="oscarr.mp4" type="video/mp4">
-			<source src="galll.mp4" type="video/mp4">
-			<source src="arman.mp4" type="video/mp4">
-		
-			Your browser does not support the video tag.
-		  </video>
-		
-		  <style>
-			.videos {
+        <body> 
+        
+          <video controls class="videos" id="myVideo"> <source src="oscarr.mp4" type="video/mp4">
+            <source src="oscarr.mp4" type="video/mp4">
+            <source src="galll.mp4" type="video/mp4">
+            <source src="arman.mp4" type="video/mp4">
+        
+            Your browser does not support the video tag.
+          </video>
+        
+          <style>
+            .videos {
   width: 100%; /* Fill the width of its container */
   height: auto; /* Maintain aspect ratio */
   position: absolute; /* Remove from normal document flow */
@@ -279,221 +263,225 @@
   /* Optional: Center the video on larger screens */
   margin: 0 auto;
 }
-		  </style>
+          </style>
 
-		  <script>
+          <script>
 
 const videos = ['oscarr.mp4', 'galll.mp4', 'arman.mp4']; // Array of video sources
-		let currentVideoIndex = 0;
-		
-		const videoPlayer = document.getElementById('myVideo');
-		
-		const video = document.getElementById("myVideo");
+        let currentVideoIndex = 0;
+        
+        const videoPlayer = document.getElementById('myVideo');
+        
+        const video = document.getElementById("myVideo");
 
         video.addEventListener("loadeddata", function() {
   video.play();
 });
 
-		videoPlayer.addEventListener('ended', () => {
-		  currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
-		  videoPlayer.src = videos[currentVideoIndex];
-		  videoPlayer.play(); // Start playing the next video
-		});
-		  </script>
+        videoPlayer.addEventListener('ended', () => {
+          currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
+          videoPlayer.src = videos[currentVideoIndex];
+          videoPlayer.play(); // Start playing the next video
+        });
+          </script>
+        
+    
+        
+        </body>
+        
+
 		
+
+
+		
+
 	
 		
-		</body>
-		
-		
-		
-		
-		<!-- End Why Choose Us Section -->
-
-		
-
-		
 		<!-- Start Testimonial Slider -->
-		<div class="testimonial-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7 mx-auto text-center">
-						<h2 class="section-title">TEAM</h2>
-					</div>
-				</div>
+        <div class="testimonial-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 mx-auto text-center">
+                        <h2 class="section-title">TEAM</h2>
+                    </div>
+                </div>
 
-				<div class="row justify-content-center">
-					<div class="col-lg-12">
-						<div class="testimonial-slider-wrap text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="testimonial-slider-wrap text-center">
 
-							<div id="testimonial-nav">
-								<span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
-								<span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
-							</div>
+                            <div id="testimonial-nav">
+                                <span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
+                                <span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
+                            </div>
 
-							<div class="testimonial-slider">
-								
-								<div class="item">
-									<div class="row justify-content-center">
-										<div class="col-lg-8 mx-auto">
+                            <div class="testimonial-slider">
+                                
+                                <div class="item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8 mx-auto">
 
-											<div class="testimonial-block text-center">
-												<blockquote class="mb-5">
-													<p>&ldquo;Our collective passion drives innovation and excellence. Together, we're creating something extraordinary. Join us on this exciting journey!.&rdquo;</p>
-												</blockquote>
+                                            <div class="testimonial-block text-center">
+                                                <blockquote class="mb-5">
+                                                    <p>&ldquo;Our collective passion drives innovation and excellence. Together, we're creating something extraordinary. Join us on this exciting journey!.&rdquo;</p>
+                                                </blockquote>
 
-												<div class="author-info">
-												
-													
-													<h3 class="font-weight-bold">Kaan Demirel</h3>
-													<span class="position d-block mb-3">CEO, Co-Founder, F.K Global Inc.</span>
-												</div>
-											</div>
+                                                <div class="author-info">
+                                                
+                                                    
+                                                    <h3 class="font-weight-bold">Kaan Demirel</h3>
+                                                    <span class="position d-block mb-3">CEO, Co-Founder, F.K Global Inc.</span>
+                                                </div>
+                                            </div>
 
-										</div>
-									</div>
-								</div> 
-								<!-- END item -->
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- END item -->
 
-								<div class="item">
-									<div class="row justify-content-center">
-										<div class="col-lg-8 mx-auto">
+                                <div class="item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8 mx-auto">
 
-											<div class="testimonial-block text-center">
-												<blockquote class="mb-5">
-													<p>it's about transforming spaces. Elevate your surroundings with our curated pieces and trade in style.&rdquo;</p>
-												</blockquote>
+                                            <div class="testimonial-block text-center">
+                                                <blockquote class="mb-5">
+                                                    <p>it's about transforming spaces. Elevate your surroundings with our curated pieces and trade in style.&rdquo;</p>
+                                                </blockquote>
 
-												<div class="author-info">
-												
-													<h3 class="font-weight-bold">Fatih Celik</h3>
-													<span class="position d-block mb-3">CEO, Co-Founder, F.K Global Inc.</span>
-												</div>
-											</div>
+                                                <div class="author-info">
+                                                
+                                                    <h3 class="font-weight-bold">Fatih Celik</h3>
+                                                    <span class="position d-block mb-3">CEO, Co-Founder, F.K Global Inc.</span>
+                                                </div>
+                                            </div>
 
-										</div>
-									</div>
-								</div> 
-								<!-- END item -->
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- END item -->
 
-								<div class="item">
-									<div class="row justify-content-center">
-										<div class="col-lg-8 mx-auto">
+                                <div class="item">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8 mx-auto">
 
-											<div class="testimonial-block text-center">
-												<blockquote class="mb-5">
-													<p>&ldquo;We strive to make digital furniture service more creative and passionate.&rdquo;</p>
-												</blockquote>
+                                            <div class="testimonial-block text-center">
+                                                <blockquote class="mb-5">
+                                                    <p>&ldquo;We strive to make digital furniture service more creative and passionate.&rdquo;</p>
+                                                </blockquote>
 
-												<div class="author-info">
-													
-													<h3 class="font-weight-bold">Gorkem Daimi</h3>
-													<span class="position d-block mb-3">Deveoper, Designer, F.K Global Inc.</span>
-												</div>
-											</div>
+                                                <div class="author-info">
+                                                    
+                                                    <h3 class="font-weight-bold">Gorkem Daimi</h3>
+                                                    <span class="position d-block mb-3">Deveoper, Designer, F.K Global Inc.</span>
+                                                </div>
+                                            </div>
 
-										</div>
-									</div>
-								</div> 
-								<!-- END item -->
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- END item -->
 
-							</div>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Testimonial Slider -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonial Slider -->
+
 
 		
+
 
 		<!-- Start Footer Section -->
-		<footer class="footer-section">
-			<div class="container relative">
-
-				<div class="sofa-img">
-					<img src="images/sofa.png" alt="Image" class="img-fluid">
-				</div>
-
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
-								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-								</div>
-							</form>
-
+				<footer class="footer-section">
+					<div class="container relative">
+		
+						<div class="sofa-img">
+							<img src="images/sofa.png" alt="Image" class="img-fluid">
 						</div>
-					</div>
-				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">F.K Global<span></span></a></div>
-						<p class="mb-4">Welcome to F.K Global, your gateway to a world of style and comfort. Immerse yourself in a vast selection of exquisite furniture curated for every taste, all offered at competitive prices without compromising on quality. Elevate your living spaces with F.K Global – where luxury meets affordability.</p>
-
-						<ul class="list-unstyled custom-social">
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="https://www.linkedin.com/company/f-k-global-furniture/"><span class="fa fa-brands fa-linkedin"></span></a></li>
-						</ul>
-					</div>
-
-					
-
-						
-
+		
+						<div class="row">
 							<div class="col-lg-8">
-								<div class="row links-wrap">
-									<div class="col-6 col-sm-6 col-md-3">
-										<ul class="list-unstyled">
-											<li><a href="about.html">About us</a></li>
-											<li><a href="services.html">Services</a></li>
-						
-											<li><a href="contact.html">Contact us</a></li>
-										</ul>
-									</div>
+								<div class="subscription-form">
+									<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+		
+									<form action="#" class="row g-3">
+										<div class="col-auto">
+											<input type="text" class="form-control" placeholder="Enter your name">
+										</div>
+										<div class="col-auto">
+											<input type="email" class="form-control" placeholder="Enter your email">
+										</div>
+										<div class="col-auto">
+											<button class="btn btn-primary">
+												<span class="fa fa-paper-plane"></span>
+											</button>
+										</div>
+									</form>
+		
+								</div>
+							</div>
 						</div>
+		
+						<div class="row g-5 mb-5">
+							<div class="col-lg-4">
+								<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">F.K Global<span></span></a></div>
+								<p class="mb-4">Welcome to F.K Global, your gateway to a world of style and comfort. Immerse yourself in a vast selection of exquisite furniture curated for every taste, all offered at competitive prices without compromising on quality. Elevate your living spaces with F.K Global – where luxury meets affordability.</p>
+		
+								<ul class="list-unstyled custom-social">
+									<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+									<li><a href="https://www.linkedin.com/company/f-k-global-furniture/"><span class="fa fa-brands fa-linkedin"></span></a></li>
+								</ul>
+							</div>
+		
+							
+		
+								
+		
+									<div class="col-lg-8">
+										<div class="row links-wrap">
+											<div class="col-6 col-sm-6 col-md-3">
+												<ul class="list-unstyled">
+													<li><a href="about.html">About us</a></li>
+													<li><a href="services.html">Services</a></li>
+								
+													<li><a href="contact.html">Contact us</a></li>
+												</ul>
+											</div>
+								</div>
+							</div>
+		
+						</div>
+		
+						<div class="border-top copyright">
+							<div class="row pt-4">
+								<div class="col-lg-6">
+									<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Developed 2024 <a href="https://plant-it.my.canva.site/anasayfa">Gorkem Daimi Demirel</a>
+					</p>
+								</div>
+		
+								<div class="col-lg-6 text-center text-lg-end">
+									<ul class="list-unstyled d-inline-flex ms-auto">
+										<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+									</ul>
+								</div>
+		
+							</div>
+						</div>
+		
 					</div>
-
-				</div>
-
-				<div class="border-top copyright">
-					<div class="row pt-4">
-						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Developed 2024 <a href="https://plant-it.my.canva.site/anasayfa">Gorkem Daimi Demirel</a>
-            </p>
-						</div>
-
-						<div class="col-lg-6 text-center text-lg-end">
-							<ul class="list-unstyled d-inline-flex ms-auto">
-								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-		</footer>
-		<!-- End Footer Section -->	
-
-
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/tiny-slider.js"></script>
-		<script src="js/custom.js"></script>
-	</body>
-
-</html>
+				</footer>
+				<!-- End Footer Section --> 
+		
+		
+				<script src="js/bootstrap.bundle.min.js"></script>
+				<script src="js/tiny-slider.js"></script>
+				<script src="js/custom.js"></script>
+			</body>
+		
+		</html>
+		
+		
