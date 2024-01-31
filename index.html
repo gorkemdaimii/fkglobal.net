@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="gorkemdaimi">
+  <meta name="author" content="Untree.co">
   <link rel="shortcut icon" href="favicon.png">
 
   <meta name="description" content="" />
@@ -242,13 +242,12 @@
 
         <body> 
         
-          <video controls class="videos" id="myVideo"> <source src="oscarr.mp4" type="video/mp4">
-            <source src="oscarr.mp4" type="video/mp4">
-            <source src="galll.mp4" type="video/mp4">
-            <source src="arman.mp4" type="video/mp4">
-        
-            Your browser does not support the video tag.
-          </video>
+			<video controls muted playsinline class="videos" id="myVideo" autoplay>
+				<source src="oscarr.mp4" type="video/mp4">
+				<source src="galll.mp4" type="video/mp4">
+				<source src="arman.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			  </video>
         
           <style>
             .videos {
@@ -266,23 +265,17 @@
           </style>
 
           <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const videoPlayer = document.getElementById('myVideo');
 
-const videos = ['oscarr.mp4', 'galll.mp4', 'arman.mp4']; // Array of video sources
-        let currentVideoIndex = 0;
-        
-        const videoPlayer = document.getElementById('myVideo');
-        
-        const video = document.getElementById("myVideo");
-
-        video.addEventListener("loadeddata", function() {
-  video.play();
+  videoPlayer.addEventListener('ended', () => {
+    currentVideoIndex = (currentVideoIndex + 1) % videos.length;
+    videoPlayer.src = videos[currentVideoIndex];
+    videoPlayer.play();
+  });
 });
 
-        videoPlayer.addEventListener('ended', () => {
-          currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Cycle through videos
-          videoPlayer.src = videos[currentVideoIndex];
-          videoPlayer.play(); // Start playing the next video
-        });
+
           </script>
         
     
